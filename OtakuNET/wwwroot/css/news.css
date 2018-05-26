@@ -1,0 +1,46 @@
+﻿.update-node {
+    padding-bottom: 3rem;
+}
+
+.update-node__container {
+    display: flex;
+}
+
+.update-node__image {
+    width: 12rem;
+}
+
+.update-node__image__image {
+    width: 100%;
+}
+
+.update-node__info {
+    width: 25rem;
+    padding: 1rem;
+}
+
+/*---./updates---*/
+
+
+
+.news-node {
+    padding-bottom: 3rem;
+}
+
+    .news-node:after {
+        display: block;
+        content: "";
+        clear: both;
+    }
+
+.news-node__image {
+    float: left;
+    width: 20rem;
+    margin-right: 1rem;
+}
+
+.news__container {
+    max-width: 70rem;
+}
+
+/*---./news---*/

@@ -1,0 +1,112 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    color: darkgoldenrod;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.container {
+	width: 99%;
+    max-width: 970px;
+    margin: auto;
+}
+
+.container:last-child{
+    margin-bottom: 40px;
+}
+/*---./common---*/
+
+header {
+    text-align: center;
+    border-bottom: 1px solid darkgoldenrod;
+}
+
+.nav-list {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.nav-list__link {
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+
+.nav-list__item {
+    display: inline-block;
+    font-size: 1rem;
+    width: 11.5rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+}
+
+    .nav-list__item:hover {
+        background-color: darkgoldenrod;
+    }
+
+        .nav-list__item:hover > .nav-list__link {
+            color: white;
+        }
+
+.logo {
+    border-radius: 50%;
+    margin-top: 10px;
+}
+/*---./header---*/
+
+form{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+fieldset{
+    margin: 15px 0;
+}
+
+label, input, textarea{
+    display: block;
+    width: 95%;
+    margin: 10px auto;
+}
+
+textarea{
+    height: 100px;
+    resize: none;
+}
+/*---./form---*/
+
+h1 {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    color: darkgoldenrod;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: orangered;
+    font-size: 1.5rem;
+}
+
+.point:before {
+    content: "✓ ";
+}
+
+dt{
+    font-weight: bold;
+}
+
+article, section{
+    padding-left: 30px;
+}
+
+article > h2, section > h2{
+    margin-left: -30px;
+}
+
+.article-footer{
+    font-size: 0.8rem;
+    text-align: right;
+}

@@ -14,30 +14,30 @@ body {
     margin: 0 auto;
     box-sizing: border-box;
     max-width: calc(1080px + 14px);
-    background-color: rgb(234, 34, 74);
+    background-color: rgb(206, 34, 74);
 }
 
 .header {
     padding-top: 20px;
     max-width: calc(1080px + 14px);
     height: calc(50px + 14px);
-    background-color: rgb(198, 148, 25);
-    border: 1px solid rgb(167, 64, 218);
+    background-color: rgb(170, 148, 25);
+    border: 1px solid rgb(139, 64, 218);
 }
 
 .slider {
     max-width: calc(812px + 14px);
     height: calc(190px + 14px);
-    background-color: rgb(167, 64, 218);
-    border: 1px solid rgb(234, 34, 74);
+    background-color: rgb(139, 64, 218);
+    border: 1px solid rgb(206, 34, 74);
 }
 
 .menu {
     padding-top: 20px;
     max-width: calc(670px + 14px);
     height: calc(50px + 14px);
-    background-color: rgb(192, 48, 48);
-    border: 1px solid rgb(142, 142, 142);
+    background-color: rgb(164, 48, 48);
+    border: 1px solid rgb(114, 142, 142);
 }
 
 .news {
@@ -53,25 +53,25 @@ body {
 }
 
 #news1 {
-    background-color: rgb(142, 142, 142);
-    border: 2px solid rgb(46, 192, 184);
+    background-color: rgb(114, 142, 142);
+    border: 2px solid rgb(18, 192, 184);
 }
 
 #news2 {
-    background-color: rgb(74, 193, 127);
-    border: 2px solid rgb(121, 156, 49);
+    background-color: rgb(46, 193, 127);
+    border: 2px solid rgb(93, 156, 49);
 }
 
 #news3 {
-    background-color: rgb(121, 156, 49);
-    border: 2px solid rgb(192, 48, 48)
+    background-color: rgb(93, 156, 49);
+    border: 2px solid rgb(164, 48, 48)
 }
 
 .content {
     max-width: calc(812px + 14px);
     height: calc(500px + 14px);
-    background-color: rgb(219, 106, 106);
-    border: 1px solid rgb(167, 64, 218);
+    background-color: rgb(191, 106, 106);
+    border: 1px solid rgb(139, 64, 218);
 }
 
 .body {
@@ -82,8 +82,8 @@ body {
     padding-top: 20px;
     max-width: calc(1080px + 14px);
     height: calc(50px + 14px);
-    background-color: rgb(46, 192, 184);
-    border: 1px solid rgb(198, 148, 25);
+    background-color: rgb(18, 192, 184);
+    border: 1px solid rgb(170, 148, 25);
 }
 
 @media screen and (max-width: 370px) {

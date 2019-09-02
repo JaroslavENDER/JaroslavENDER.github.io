@@ -1,0 +1,1 @@
+const redirectToServer = (port) => window.location.href = `http://176.197.71.5:${port}`;
